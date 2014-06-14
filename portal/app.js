@@ -22,7 +22,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -56,4 +55,6 @@ app.use(function(err, req, res, next) {
 });
 
 
-module.exports = app;
+app.listen(8080, function(){
+    console.log("Portal Server is running on Port 8080");
+})

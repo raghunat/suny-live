@@ -54,8 +54,6 @@ app.use(function(err, req, res, next) {
 //ROUTES
 //TODO
 
-
-
 //launch the server
 http.listen(process.argv[2], function(){
     console.log("Chat Instance started at port: " + process.argv[2]);
