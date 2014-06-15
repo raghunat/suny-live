@@ -7,6 +7,7 @@ var express = require('express'),
     app = express(),
     http = require("http").Server(app),
     io = require("socket.io")(http),
+    routes = require('./routes');
     mongoose = require("mongoose");
 
 // view engine setup
@@ -19,6 +20,69 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+//routes
+app.get('/chat/:id', function(req, res) {
+    //chat object
+    var chat = {
+        name: "Test",
+        date: "06/12/2014",
+        className: "Class Name",
+        school: "SUNY Fredonia",
+        files: [],
+        presenter: {
+            type: "Type",
+            ref: "Reference"
+        },
+        participants: {
+            type: [],
+            ref: []
+        }
+    };
+    chat.id = req.params.chatID;
+
+    //messages objects
+    var messages = [
+        {
+            user: {
+                type: "Type",
+                ref: "user"
+            },
+            message: "Hey how is everyone doing",
+            date: "06/12/2014",
+            chatRoom: {
+                type: "Type",
+                ref: req.params.chatID
+            }
+        },
+        {
+            user: {
+                type: "Type",
+                ref: "user"
+            },
+            message: "Hey how is everyone doing",
+            date: "06/12/2014",
+            chatRoom: {
+                type: "Type",
+                ref: req.params.chatID
+            }
+        },
+        {
+            user: {
+                type: "Type",
+                ref: "user 2"
+            },
+            message: "Hey ",
+            date: "06/12/2014",
+            chatRoom: {
+                type: "Type",
+                ref: req.params.chatID
+            }
+        }
+    ];
+
+    res.render('chat', {chat: chat, messages: messages});
+});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -50,9 +114,6 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
-//ROUTES
-//TODO
 
 //launch the server
 http.listen(process.argv[2], function(){
