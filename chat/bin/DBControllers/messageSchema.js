@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var messageSchema = mongoose.Schema({
 	message : String,
 	user : String,
-	chatRoom  : {type: String, ref: 'ChatRoom'},
+	chatRoom  : {type: Schema.ObjectId, ref: 'ChatRoom'},
 	date : Date
 });
 
