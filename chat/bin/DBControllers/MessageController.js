@@ -2,7 +2,7 @@ var Message = require('./messageSchema').Message;
 
 exports.createMessage = function(message, userName, chatRoom){
 	var newMessage = new Message();
-  newMessage.message : message;
+  newMessage.message = message;
 	newMessage.user = userName;
 	newMessage.chatRoom = chatRoom; 
 	newMessage.date = Date.now();
