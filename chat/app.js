@@ -10,6 +10,11 @@ var express = require('express'),
     routes = require('./routes');
     mongoose = require("mongoose");
 
+//connect to mongo
+mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
+var db = mongoose.connection;
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
