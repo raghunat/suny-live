@@ -4,7 +4,7 @@ exports.createMessage = function(message, userName, chatRoom){
 	var newMessage = new Message();
   newMessage.message = message;
 	newMessage.user = userName;
-	newMessage.chatRoom = chatRoom; 
+	newMessage.chatRoom = chatRoom._id; 
 	newMessage.date = Date.now();
 
 	message.save('save', function(err, result){
