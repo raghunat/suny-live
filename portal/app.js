@@ -6,9 +6,13 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 
 var app = express();
+
+//connect to mongo
+mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
+var db = mongoose.connection;
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -57,4 +61,4 @@ app.use(function(err, req, res, next) {
 
 app.listen(8080, function(){
     console.log("Portal Server is running on Port 8080");
-})
+});
