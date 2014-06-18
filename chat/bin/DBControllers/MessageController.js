@@ -1,9 +1,11 @@
 var Message = require('./messageSchema').Message;
 
-exports.createMessage = function(message, userName, chatRoom){
+exports.createMessage = function(message, user_from, user_to, pub, chatRoom){
 	var newMessage = new Message();
   newMessage.message = message;
-	newMessage.user = userName;
+	newMessage.user_from = user_from;
+	newMessage.user_to = user_from;
+	newMessage.pub = pub;
 	newMessage.chatRoom = chatRoom._id; 
 	newMessage.date = Date.now();
 
