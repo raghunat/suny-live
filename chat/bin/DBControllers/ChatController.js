@@ -1,4 +1,4 @@
-var ChatRoom = require('./models/chatRoomSchema').User;
+var ChatRoom = require('./chatRoomSchema').User;
 
 exports.createChatRoom =  function(name, date, presenter, type, className, school, files, participants){
     var newChat = new ChatRoom();
@@ -29,8 +29,12 @@ exports.updateChatRoom = function(chatRoom){
             result.type = chatRoom.name;
             result.className = chatRoom.className;
             result.school = chatRoom.school;
-            result.save();
-            console.log("ChatRoom updated successfully!");
+            result.save('update', function(err,result){
+                if(err){
+                    throw err;
+                }
+                console.log("ChatRoom updated successfully!");
+            });
         }else{
              console.log("ChatRoom not found!");
         }
