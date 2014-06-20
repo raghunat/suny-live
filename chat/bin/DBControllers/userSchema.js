@@ -1,9 +1,5 @@
 var mongoose = require('mongoose');
-<<<<<<< HEAD
-var bcrypt = require('bcrypt-nodejs');
-=======
 //var bcrypt = require('bcrypt-nodejs');
->>>>>>> origin/UserController
 
 //user Schema
 var userSchema = mongoose.Schema({
@@ -22,8 +18,6 @@ var User = mongoose.model('User', userSchema);
 //export of my schema
 module.exports = {
 	User : User
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/UserController
+
+

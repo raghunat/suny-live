@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-
+var passport = require('passport');
 var routes = require('./routes/index');
 
 var app = express();
@@ -14,6 +14,7 @@ var app = express();
 mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
 var db = mongoose.connection;
 
+require('./bin/passport')(passport);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
