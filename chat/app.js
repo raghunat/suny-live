@@ -14,6 +14,9 @@ var express = require('express'),
 mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
 var db = mongoose.connection;
 
+var messageController = require('chat/bin/DBControllers/MessageController');
+var userController = require('chat/bin/DBControllers/UserController');
+var chatController = require('chat/bin/DBControllers/ChatController');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,67 +29,44 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//routes
 app.get('/chat/:id', function(req, res) {
-    //chat object
-    var chat = {
-        name: "Test",
-        date: "06/12/2014",
-        className: "Class Name",
-        school: "SUNY Fredonia",
-        files: [],
-        presenter: {
-            type: "Type",
-            ref: "Reference"
-        },
-        participants: {
-            type: [],
-            ref: []
-        }
-    };
-    chat.id = req.params.chatID;
+    
 
-    //messages objects
-    var messages = [
-        {
-            user: {
-                type: "Type",
-                ref: "user"
-            },
-            message: "Hey how is everyone doing",
-            date: "06/12/2014",
-            chatRoom: {
-                type: "Type",
-                ref: req.params.chatID
-            }
-        },
-        {
-            user: {
-                type: "Type",
-                ref: "user"
-            },
-            message: "Hey how is everyone doing",
-            date: "06/12/2014",
-            chatRoom: {
-                type: "Type",
-                ref: req.params.chatID
-            }
-        },
-        {
-            user: {
-                type: "Type",
-                ref: "user 2"
-            },
-            message: "Hey ",
-            date: "06/12/2014",
-            chatRoom: {
-                type: "Type",
-                ref: req.params.chatID
-            }
-        }
-    ];
+    io.on('connection', function(socket) {
 
-    res.render('chat', {chat: chat, messages: messages});
+        //function : findChatRoomByName();
+        //description: find the chat room by the chat id and returned it;
+        chatController.findChatRoomByName(req.params.id, function(chatRoom){
+            
+            socket.on('join', function(){
+                userController.findUserByUserName('test', function(){
+                    //get messages from today**
+                    messageController.getMessagesByChatRoom(chatRoom,function(messages){
+                        res.render('chat', {chat: chatRoom, messages: messages, user:'test'});    
+                    });    
+                });               
+            });
+
+            socket.on('chat message', function(msg){
+                messageController.createMessage(msg,'test',chatRoom,function(msg){
+                    io.emit('chat message', msg);
+                });
+            });    
+
+        });
+
+
+        io.on('snippet',function(){
+            io.emit();
+        });
+
+        io.on('screen',function(){
+            io.emit();
+        });
+
+    });
+
+    
 });
 
 /// catch 404 and forward to error handler
