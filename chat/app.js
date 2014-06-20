@@ -14,9 +14,9 @@ var express = require('express'),
 mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
 var db = mongoose.connection;
 
-var messageController = require('chat/bin/DBControllers/MessageController');
-var userController = require('chat/bin/DBControllers/UserController');
-var chatController = require('chat/bin/DBControllers/ChatController');
+var messageController = require('./bin/DBControllers/MessageController');
+var userController = require('./bin/DBControllers/UserController');
+var chatController = require('./bin/DBControllers/ChatController');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
