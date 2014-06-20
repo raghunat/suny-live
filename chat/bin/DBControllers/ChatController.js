@@ -1,110 +1,152 @@
-var ChatRoom = require('./chatRoomSchema').User;
+var ChatRoom = require('./chatRoomSchema').ChatRoom;
 
-exports.createChatRoom =  function(name, date, presenter, type, className, school, files, participants){
-    var newChat = new ChatRoom();
-    newChat.name = name;
-    newChat.date = date;
-    newChat.presenter = presenter;
-    newChat.type = type;
-    newChat.className = className;
-    newChat.school = school;
-    newChat.files = files;
-    newChat.participants = participants;
-    
-    newChat.save('save', function(err,result){
-        if(err){
-            throw err;
+exports.createChatRoom =  function(name, date, presenter, type, className, school, files, participants, callback){
+    this.findChatRoomByName(name, function(result){
+        if(result != "ChatRoom not found!"){
+            callback("ChatRoom name is already in use. Please, choose another one.");    
+        }else{
+            var newChat = new ChatRoom();
+            newChat.name = name;
+            newChat.date = date;
+            newChat.presenter = presenter;
+            newChat.type = type;
+            newChat.className = className;
+            newChat.school = school;
+            newChat.files = files;
+            newChat.participants = participants;
+            
+            newChat.save(function(err,result){
+                if(err){
+                    throw err;
+                }
+                callback("ChatRoom created successfully!");
+            });
         }
-        console.log("ChatRoom created successfully!");
     });
 };
 
 
-exports.updateChatRoom = function(chatRoom){
-     ChatRoom.findOne({name : chatRoom}, function(err,result){
+exports.updateChatRoom = function(name, date, presenter, type, className, school, files, participants, callback){
+    ChatRoom.findOne({name : name}, function(err,result){
         if(err){
             throw err;
         }
         if(result){
-            result.type = chatRoom.name;
-            result.className = chatRoom.className;
-            result.school = chatRoom.school;
-            result.save('update', function(err,result){
+            result.name = name;
+            result.date = date;
+            result.presenter = presenter;
+            result.type = type;
+            result.className = className;
+            result.school = school;
+            result.files = files;
+            result.participants = participants;
+            result.save(function(err,result){
                 if(err){
                     throw err;
                 }
-                console.log("ChatRoom updated successfully!");
+                callback("ChatRoom updated successfully!");
             });
         }else{
-             console.log("ChatRoom not found!");
+             callback("ChatRoom not found!");
         }
     });    
 };
 
-exports.removeUser = function(name){
-     ChatRoom.remove({name : name}, function(err){
+exports.removeChatRoom = function(name, callback){
+     ChatRoom.remove({name : name}, function(err, result){
         if(err){
             throw err;
-        }
-        if(result){
-            console.log("ChatRoom removed successfully!");
         }else{
-            console.log("ChatRoom not found!");
+            if(result){
+                callback("ChatRoom removed successfully!");
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
     }); 
 };
 
-exports.findChatRoomByName = function(name){
-     ChatRoom.findOne({name : name}, function(err,result){
+exports.findChatRoomByName = function(name, callback){
+     ChatRoom.find({name : name}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 
-exports.findChatRoomBySchool = function(school){
-     ChatRoom.findOne({school : school}, function(err,result){
+exports.findChatRoomBySchool = function(school, callback){
+     ChatRoom.find({school : school}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 
-exports.findChatRoomByClassName = function(className){
-     ChatRoom.findOne({className : className}, function(err,result){
+exports.findChatRoomByClassName = function(className, callback){
+     ChatRoom.find({className : className}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 
-exports.findChatRoomByType = function(type){
-     ChatRoom.findOne({type : type}, function(err,result){
+exports.findChatRoomByType = function(type, callback){
+     ChatRoom.find({type : type}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 
-exports.findChatRoomByPresenter = function(presenter){
-     ChatRoom.findOne({presenter : presenter}, function(err,result){
+exports.findChatRoomByPresenter = function(presenter, callback){
+     ChatRoom.find({presenter : presenter}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 
-exports.findChatRoomByDate = function(date1, date2){
+exports.findChatRoomByDate = function(date1, date2, callback){
      ChatRoom.find({ date : {$gte : date1} , date : {$lte : date2}}, function(err,result){
         if(err){
             throw err;
+        }else{
+            if(result && result.length > 0){
+                callback(result);
+            }else{
+                callback("ChatRoom not found!");
+            }
         }
-        return result;
     });
 };
 

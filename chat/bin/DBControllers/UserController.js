@@ -2,7 +2,7 @@ var User = require('./userSchema').User;
 
 exports.createUser =  function(name, email, userName, password, IP, type, callback){
     this.findUserByEmail(email, function(result){
-        if(result){
+        if(result != "User not found!"){
             callback("Email is already in use. Please, choose another one.");    
         }else{
             var newUser = new User();
@@ -92,7 +92,7 @@ exports.findUserByName = function(name, callback){
 };
 
 exports.findUserByEmail = function(email, callback){
-     User.findOne({email : email}, function(err,result){
+     User.find({email : email}, function(err,result){
         if(err){
             throw err;
         }else{
