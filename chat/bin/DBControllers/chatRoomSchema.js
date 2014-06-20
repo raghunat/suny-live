@@ -1,11 +1,7 @@
-<<<<<<< HEAD
+
 //chatRoom Schema
 var mongoose = require('mongoose');
 
-=======
-var mongoose = require('mongoose');
-//chatRoom Schema
->>>>>>> origin/UserController
 var chatRoomSchema = mongoose.Schema({
 	name : String,
 	date  : Date,
