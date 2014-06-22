@@ -31,30 +31,29 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/chat/:id', function(req, res) {
     
+    var currentChatRoom; 
+
+    chatController.findChatRoomByName(req.params.id, function(chatRoom){
+        currentChatRoom = chatRoom;
+        userController.findUserByUserName('gustavo', function(user){
+            messageController.getMessagesByChatRoom(chatRoom,function(messages){
+                res.render('chat', {chat: chatRoom, messages: messages, user:user});    
+            });    
+        }); 
+    });
+
 
     io.on('connection', function(socket) {
-
-        //function : findChatRoomByName();
-        //description: find the chat room by the chat id and returned it;
-        chatController.findChatRoomByName(req.params.id, function(chatRoom){
             
-            socket.on('join', function(){
-                userController.findUserByUserName('test', function(){
-                    //get messages from today**
-                    messageController.getMessagesByChatRoom(chatRoom,function(messages){
-                        res.render('chat', {chat: chatRoom, messages: messages, user:'test'});    
-                    });    
-                });               
-            });
-
-            socket.on('chat message', function(msg){
-                messageController.createMessage(msg,'test',chatRoom,function(msg){
-                    io.emit('chat message', msg);
-                });
-            });    
-
+        socket.on('join', function(userName){
+                          
         });
 
+        socket.on('chat message', function(user, msg){
+            messageController.createMessage(msg,user,user,true,currentChatRoom,function(msg){
+                io.emit('chat message', msg);
+            });
+        });    
 
         io.on('snippet',function(){
             io.emit();
@@ -63,9 +62,7 @@ app.get('/chat/:id', function(req, res) {
         io.on('screen',function(){
             io.emit();
         });
-
     });
-
     
 });
 
