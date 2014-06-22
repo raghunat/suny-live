@@ -10,6 +10,19 @@
 	</style>
 </head>
 <body>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		var socket = io();//io(paht//server//url)
+
+		socket.on("screenshot", function(data){
+			$("#img").src = "data:image/jpg;base64," + data;
+		});
+
+
+	</script>
+
+	<img id="img" src="">
 	<h1>Welcome to Chat  <%= chat.id %></h1>
 	<h2>Name: <%= chat.name%> </h2>
 	<h3>Date: <%= chat.date%> </h3>

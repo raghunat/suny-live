@@ -3,7 +3,10 @@ var http = require('http').Server(app);//http.Server(serverVar);
 var io = require('socket.io')(http);//binds socket.io to http server instance we have
 var async = require('async');
 var fs = require('fs');
-
+//=============Events==========================
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+//============================================
 // var Screen = require('./screenshot.js');
 var count = 0,
 	count2 = 0;
@@ -48,13 +51,14 @@ var erase = function(count){
 //================================================================
 var img;
 
-var setTime = function(){
+// var setTime = function(){
 	var timer = setInterval(function(){
 		// console.log(read(count));
 		img = read(count);
-		io.emit("screenshot", img);
-		// console.log("img: " + img + "  img ending");
-		// res.render("student", {img: "data:image/jpg;base64," + img});
+		io.emit('screenshot', img);
+
+		eventEmitter.emit('screenshot', img);
+
 		count++;
 		if(count === 10) {
 			var timer2 = setInterval(function(){
@@ -63,8 +67,10 @@ var setTime = function(){
 			console.log("Starting Deleting")
 		}
 	}, 500);
-}
+// }
 
 
-module.exports = setTime;
+// module.exports = setTime;
+module.exports = timer;
+
 // module.exports = img;

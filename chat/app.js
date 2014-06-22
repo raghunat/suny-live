@@ -14,9 +14,15 @@ var express = require('express'),
 mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
 var db = mongoose.connection;
 
-var messageController = require('chat/bin/DBControllers/MessageController');
-var userController = require('chat/bin/DBControllers/UserController');
-var chatController = require('chat/bin/DBControllers/ChatController');
+var messageController = require('../chat/bin/DBControllers/MessageController');
+var userController = require('../chat/bin/DBControllers/UserController');
+var chatController = require('../chat/bin/DBControllers/ChatController');
+// var screenshots = require('../client/lib/winBinaries/seqScreen');
+
+//==================================================
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+//=================================================
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -30,7 +36,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/chat/:id', function(req, res) {
-    
+    var screenshots = require('../client/lib/winBinaries/seqScreen');
 
     io.on('connection', function(socket) {
 
