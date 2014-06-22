@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var passport = require('passport');
-var routes = require('./routes/index');
+var flash    = require('connect-flash');
 
 var app = express();
 
@@ -26,8 +26,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+// required for passport
+app.use(express.session({ secret: 'ilovenodejsnodejsynodejsnodejs' })); // session secret
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
+app.use(flash()); // use connect-flash for flash messages stored in session
 
-app.use('/', routes);
+require('./routes/index.js')(app, passport); // load our routes and pass in our app and fully configured passport
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
