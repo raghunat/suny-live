@@ -14,9 +14,9 @@ var express = require('express'),
 mongoose.connect("mongodb://publicUser:publicUser@ds043027.mongolab.com:43027/csit390test");
 var db = mongoose.connection;
 
-var messageController = require('chat/bin/DBControllers/MessageController');
-var userController = require('chat/bin/DBControllers/UserController');
-var chatController = require('chat/bin/DBControllers/ChatController');
+var messageController = require('./bin/DBControllers/MessageController');
+var userController = require('./bin/DBControllers/UserController');
+var chatController = require('./bin/DBControllers/ChatController');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -31,30 +31,29 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/chat/:id', function(req, res) {
     
+    var currentChatRoom; 
+
+    chatController.findChatRoomByName(req.params.id, function(chatRoom){
+        currentChatRoom = chatRoom;
+        userController.findUserByUserName('gustavo', function(user){
+            messageController.getMessagesByChatRoom(chatRoom,function(messages){
+                res.render('chat', {chat: chatRoom, messages: messages, user:user});    
+            });    
+        }); 
+    });
+
 
     io.on('connection', function(socket) {
-
-        //function : findChatRoomByName();
-        //description: find the chat room by the chat id and returned it;
-        chatController.findChatRoomByName(req.params.id, function(chatRoom){
             
-            socket.on('join', function(){
-                userController.findUserByUserName('test', function(){
-                    //get messages from today**
-                    messageController.getMessagesByChatRoom(chatRoom,function(messages){
-                        res.render('chat', {chat: chatRoom, messages: messages, user:'test'});    
-                    });    
-                });               
-            });
-
-            socket.on('chat message', function(msg){
-                messageController.createMessage(msg,'test',chatRoom,function(msg){
-                    io.emit('chat message', msg);
-                });
-            });    
-
+        socket.on('join', function(userName){
+                          
         });
 
+        socket.on('chat message', function(user, msg){
+            messageController.createMessage(msg,user,user,true,currentChatRoom,function(msg){
+                io.emit('chat message', msg);
+            });
+        });    
 
         io.on('snippet',function(){
             io.emit();
@@ -63,9 +62,7 @@ app.get('/chat/:id', function(req, res) {
         io.on('screen',function(){
             io.emit();
         });
-
     });
-
     
 });
 
