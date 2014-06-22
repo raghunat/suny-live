@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SUNY Live</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.6/TweenMax.min.js"></script>
+
+    <!-- Collage Plus-->
+    <link rel="stylesheet" href="frameworks/collagePlus/css/transitions.css">
+    <script src="frameworks/collagePlus/jquery.collagePlus.js"></script>
+    <script src="frameworks/collagePlus/extras/jquery.collageCaption.js"></script>
+    <script src="frameworks/collagePlus/extras/jquery.removeWhitespace.js"></script>
+
+</head>
+
+<body>
+  <div id="container-fluid">
+  
+  <!--Sidebar -->  
+  <div id="sidebar">
+
+      <!--Logo-->
+      <div class="col-xs-12"><h3>SUNY Live</h3></div>
+
+      <!--Avatar-->
+      <div class="sidebar-avatar">
+        <img src="img/avatar.png">
+        <span class="chat-student">Welcome, Students's Name</span>
+      </div>
+      
+      <!-- Class Information Block -->
+      <div class="col-xs-12">
+          <h4>General Information <span class="glyphicon glyphicon-th-list pull-right"></span></h4>
+          <div class="row block class-description">  
+            <ul class="chat-description">
+              <li><span class="chat-label">Chat Name:</span><span>Chat 1</span></li>
+              <li><span class="chat-label">Class:</span><span>Web Programming</span></li>
+              <li><span class="chat-label">Presenter:</span><span>Presenter's Name</span></li>
+              <li><span class="chat-label">Type:</span><span> Computer Science</span></li>
+              <li><span class="chat-label">Date:</span><span> June, 14th</span></li>
+              <li><span class="chat-label">School:</span><span> State University of New York</span></li>
+            </ul>
+          </div>
+      </div>
+
+      <!-- Class Participants Block -->
+      <div class="col-xs-12">
+          <h4>Participants <span class="glyphicon glyphicon-user pull-right"></span></h4>
+          <div class="row block">
+            <ul class="list-group">
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat"><img src="img/avatar.png"> Student Name <span class="glyphicon glyphicon-comment pull-right"></span></a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat"><img src="img/avatar.png"> Student Name <span class="glyphicon glyphicon-comment pull-right"></span></a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat"><img src="img/avatar.png"> Student Name <span class="glyphicon glyphicon-comment pull-right"></span></a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat"><img src="img/avatar.png"> Student Name <span class="glyphicon glyphicon-comment pull-right"></span></a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat"><img src="img/avatar.png"> Student Name <span class="glyphicon glyphicon-comment pull-right"></span></a>
+            </ul>
+          </div>
+      </div>
+
+      <!-- Class Shared Files Block -->
+      <div class="col-xs-12">
+          <h4>Shared Files <span class="glyphicon glyphicon-share pull-right"></span></h4>
+          <div class="row block">
+            <ul class="list-group">
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+                  <div class="files"><img src="img/file.png"> File Name <span class="pull-right">Date</span></div>
+                </a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+                  <div class="files"><img src="img/file.png"> File Name <span class="pull-right">Date</span></div>
+                </a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+                  <div class="files"><img src="img/file.png"> File Name <span class="pull-right">Date</span></div>
+                </a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+                  <div class="files"><img src="img/file.png"> File Name <span class="pull-right">Date</span></div>
+                </a>
+                <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+                  <div class="files"><img src="img/file.png"> File Name <span class="pull-right">Date</span></div>
+                </a>  
+            </ul>
+          </div>
+      </div>
+
+  </div>
+  
+  <!-- Content -->
+  <div id="content" class="col-xs-12 text-center">
+      <div class="Collage">
+        <div class="Image_Wrapper" data-caption="Image Caption 1"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+        <div class="Image_Wrapper" data-caption="Image Caption 2"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+        <div class="Image_Wrapper" data-caption="Image Caption 3"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+        <div class="Image_Wrapper" data-caption="Image Caption 4"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+        <div class="Image_Wrapper" data-caption="Image Caption 5"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+        <div class="Image_Wrapper" data-caption="Image Caption 6"><a href="#"><img src="http://placehold.it/750x450"></a></div>
+      </div>
+  </div>
+  
+    
+  </div>
+</body>
+<script language="javascript">
+$(window).load(function () {
+  $(document).ready(function(){
+
+    collage();
+
+    $("#sidebar").hover(function(){
+        TweenMax.to("#sidebar",0.7, {left:"0", top:"0",ease:Power1.easeOut});
+        TweenMax.to("#content",0.7, {left:"300", width:"74.7%",top:"0",ease:Power1.easeOut});
+    });
+
+    $("#sidebar").mouseleave(function(){
+        TweenMax.to("#sidebar",0.7, {left:"-300", top:"0",ease:Power1.easeOut});
+        TweenMax.to("#content",0.7, {left:"0",width:"96.7%", top:"0",ease:Power1.easeOut});
+    });
+
+    $("[rel='tooltip']").tooltip();
+
+    function collage() {
+      $('.Collage').removeWhitespace().collagePlus(
+        {
+          'fadeSpeed' : 2000,
+          'targetHeight' : 200,
+          'effect' : 'effect-1',
+        }
+      ).collageCaption();
+    };
+  
+  });
+
+ });
+</script>
+</html>

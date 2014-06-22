@@ -1,50 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <title>SUNY Live</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 
-	<style type="text/css">
-		#msg{
-			margin-left: 15px;
-		}
-	</style>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.6/TweenMax.min.js"></script>
+
+    <!-- Collage Plus-->
+    <link rel="stylesheet" href="frameworks/collagePlus/css/transitions.css">
+    <script src="frameworks/collagePlus/jquery.collagePlus.js"></script>
+    <script src="frameworks/collagePlus/extras/jquery.collageCaption.js"></script>
+    <script src="frameworks/collagePlus/extras/jquery.removeWhitespace.js"></script>
+
 </head>
+
 <body>
-	<h1>Welcome to Chat  <%= chat.id %></h1>
-	<h2>Name: <%= chat.name%> </h2>
-	<h3>Date: <%= chat.date%> </h3>
-	<h4>Class Name: <%= chat.className%> </h4>
-	<h5>School: <%= chat.school%> </h5>
-	<!-- 
-		/*
-		CHAT OBJECT PROPERTIES
-			name : String,
-			date  : Date,
-			type : Number,
-			className : String,
-			school : String,
-			files : Array,
-			presenter : {type : String, ref : 'User'},
-			participants : {type : Array, ref : 'User'}
-		*/
-	  -->
+	<div id="container-fluid">
+  		<!--Sidebar -->  
+  		<div id="sidebar">
+      		
+      		<!--Logo-->
+  			<div class="col-xs-12"><h3>SUNY Live</h3></div>
 
-	<!-- 
-		Messages OBJECT PROPERTIES
-			// 	message : String,
-			// 	user : {type: Number, ref: 'User'},
-			// 	chatRoom  : {type: String, ref: 'ChatRoom'},
-			// 	date : Date	
-	-->
+	      	<!--Avatar-->
+	      	<div class="sidebar-avatar">
+	        	<img src="img/avatar.png">
+	        	<span class="chat-student">Welcome, Students's Name</span>
+		    </div>
+	      
+	      	<!-- Class Information Block -->
+	      	<div class="col-xs-12">
+	          	<h4>General Information <span class="glyphicon glyphicon-th-list pull-right"></span></h4>
+	          	<div class="row block class-description">  
+	            	<ul class="chat-description">
+	            		<li><span class="chat-label">Chat Name:</span><span><%= chat.name %></span></li>
+	            		<li><span class="chat-label">Class:</span><span><%= chat.classname %></span></li>
+	              		<li><span class="chat-label">Presenter:</span><span><%= chat.presenter %></span></li>
+	              		<li><span class="chat-label">Type:</span><span><%= chat.type == 0 ? "Public" : "Private" %></span></li>
+              			<li><span class="chat-label">Date:</span><span><%= chat.date %></span></li>
+	              		<li><span class="chat-label">School:</span><span><%= chat.school %></span></li>
+		            </ul>
+	          	</div>
+	      	</div>
 
-	<br>
-	<br>
+	      	<!-- Class Participants Block -->
+	      	<div class="col-xs-12">
+	          	<h4>Participants <span class="glyphicon glyphicon-user pull-right"></span></h4>
+	          	<div class="row block">
+	            	<ul class="list-group">
+	            		<% for (var i in participants) { %>
+	            			<a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat">
+	            				<img src="img/avatar.png"><%= participants[i].name%><span class="glyphicon glyphicon-comment pull-right"></span>
+	            			</a>
+						<% } %>
+		            </ul>
+	          	</div>
+	      	</div>
 
-	<% for (var i in messages) { %>
-		<p ><%= messages[i].user.ref %></p>
-		<p id="msg"><%= messages[i].message %></p>
-	<% } %>
-
+	      	<!-- Class Shared Files Block -->
+	      	<div class="col-xs-12">
+	          	<h4>Shared Files <span class="glyphicon glyphicon-share pull-right"></span></h4>
+	          	<div class="row block">
+		            <ul class="list-group">
+		                <% for (var i in files) { %>
+							<a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
+		                  		<div class="files"><img src="img/file.png"><%=files[i].name%><span class="pull-right"><%=files[i].date%></span></div>
+		                	</a>
+						<% } %>
+		            </ul>
+          		</div>
+	      	</div>
+		</div>
+  
+	  	<!-- Content: Presenter's screen -->
+	  	<div id="content" class="col-xs-12"></div>
+ 	</div>
 
 </body>
+
+<script language="javascript">
+	$(window).load(function () {
+	  $(document).ready(function(){
+
+	    $("#sidebar").hover(function(){
+	        TweenMax.to("#sidebar",0.7, {left:"0", top:"0",ease:Power1.easeOut});
+	        TweenMax.to("#content",0.7, {left:"300", width:"74.7%",top:"0",ease:Power1.easeOut});
+	    });
+
+	    $("#sidebar").mouseleave(function(){
+	        TweenMax.to("#sidebar",0.7, {left:"-300", top:"0",ease:Power1.easeOut});
+	        TweenMax.to("#content",0.7, {left:"0",width:"96.7%", top:"0",ease:Power1.easeOut});
+	    });
+
+	    $("[rel='tooltip']").tooltip();
+
+	  });
+	});
+</script>
+
 </html>
