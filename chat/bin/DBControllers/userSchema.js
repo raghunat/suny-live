@@ -1,5 +1,9 @@
 var mongoose = require('mongoose');
-//var bcrypt = require('bcrypt-nodejs');
+var encrypt = require('../encrypt');
+
+//TODO remove after debug
+mongoose.set("debug", true);
+
 
 //user Schema
 var userSchema = mongoose.Schema({
@@ -18,6 +22,6 @@ var User = mongoose.model('User', userSchema);
 //export of my schema
 module.exports = {
 	User : User
-}
+};
 
 

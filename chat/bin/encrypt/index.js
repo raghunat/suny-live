@@ -1,5 +1,4 @@
 var bcrypt = require('bcrypt-nodejs');
-
 var crypto = require('crypto');
 var cipher = crypto.createCipher('aes256', 'normal');
 var decipher = crypto.createDecipher('aes256', 'normal');
@@ -11,14 +10,14 @@ exports.encrypt = function (value){
 
 exports.compare = function (password){
 	return bcrypt.compareSync(password, this.local.password);
-}
+};
 
 
 //Functions to encrypt and decrypt messages
 exports.encryptNormal = function(value){
 	return cipher.update(value, 'utf8', 'hex') + cipher.final('hex');
-}
+};
 
 exports.decryptNormal = function(value){
 	return (decipher.update(value, 'hex', 'utf8') + decipher.final('utf8'));
-}
+};

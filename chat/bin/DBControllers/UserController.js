@@ -1,26 +1,23 @@
 var User = require('./userSchema').User;
+var encrypt = require("../encrypt");
 
 exports.createUser =  function(name, email, userName, password, IP, type, callback){
-    this.findUserByEmail(email, function(result){
-        if(result){
-            callback("Email is already in use. Please, choose another one.");    
-        }else{
-            var newUser = new User();
-            newUser.name = name;
-            newUser.email = email;
-            newUser.userName = userName;
-            newUser.password = password;
-            newUser.IP = IP;
-            newUser.type = type; 
-            
-            newUser.save(function(err,result){
-                if(err){
-                    throw err;
-                }
-                callback("User created successfully!");
-            });    
+    console.log("here");
+    var newUser = new User();
+    newUser.name = name;
+    newUser.email = email;
+    newUser.userName = userName;
+    newUser.password = encrypt.encrypt(password);
+    newUser.IP = IP;
+    newUser.type = type;
+
+    newUser.save(function(err,result){
+        console.log("there");
+        if(err){
+            throw err;
         }
-    }); 
+        callback(result);
+    });
 };
 
 exports.updateUser = function(name, email, userName, password, IP, type, callback){
@@ -32,7 +29,7 @@ exports.updateUser = function(name, email, userName, password, IP, type, callbac
             result.name = name;
             result.email = email;
             result.userName = userName;
-            result.password = password;
+            result.password = encrypt.encrypt(password);
             result.IP = IP;
             result.type = type;
             //result.password = generateHash(password); //encrypted password
@@ -41,7 +38,7 @@ exports.updateUser = function(name, email, userName, password, IP, type, callbac
                 if(err){
                     throw err;
                 }
-                callback("User updated successfully!");      
+                callback(result);
             });
         }else{
              callback("User not found!");
@@ -55,7 +52,7 @@ exports.removeUser = function(email, callback){
             throw err;
         }else{
             if(result){
-                callback("User removed successfully!");
+                callback(result);
             }else{
                 callback("User not found!");
             }
@@ -68,7 +65,7 @@ exports.findUserByUserName = function(userName, callback){
         if(err){
             throw err;
         }else{
-            if(result && result.length > 0){
+            if(result){
                 callback(result);
             }else{
                 callback("User not found!");
@@ -78,11 +75,11 @@ exports.findUserByUserName = function(userName, callback){
 };
 
 exports.findUserByName = function(name, callback){
-     User.find({name : name}, function(err,result){
+     User.findOne({name : name}, function(err,result){
         if(err){
             throw err;
         }else{
-            if(result && result.length > 0){
+            if(result){
                 callback(result);
             }else{
                 callback("User not found!");
@@ -92,15 +89,11 @@ exports.findUserByName = function(name, callback){
 };
 
 exports.findUserByEmail = function(email, callback){
-     User.findOne({email : email}, function(err,result){
+    User.findOne({email : email}, function(err, result){
         if(err){
             throw err;
         }else{
-            if(result && result.length > 0){
-                callback(result);
-            }else{
-                callback("User not found!");
-            }
+            callback(result);
         }
     });
 };
@@ -110,7 +103,7 @@ exports.findUserByType = function(type, callback){
         if(err){
             throw err;
         }else{
-            if(result && result.length > 0){
+            if(result){
                 callback(result);
             }else{
                 callback("User not found!");

@@ -5,7 +5,7 @@ var snippetSchema = mongoose.Schema({
 	className : String, 
 	presenter : String,  
 	chatRoom  : {type: Schema.ObjectId, ref: 'ChatRoom'}, 
-	date : Date 
+	date : Date,
 	timeaccessed : Number
 });
 
@@ -14,4 +14,4 @@ var Snippet = mongoose.model('Message', snippetSchema);
 
 module.exports = {
 	Snippet : Snippet
-}
+};

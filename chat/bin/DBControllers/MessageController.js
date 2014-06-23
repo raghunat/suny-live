@@ -2,7 +2,7 @@ var Message = require('./messageSchema').Message;
 
 exports.createMessage = function(message, user_from, user_to, pub, chatRoom, callback){
 	var newMessage = new Message();
-  newMessage.message = message;
+    newMessage.message = message;
 	newMessage.user_from = user_from;
 	if (pub === true){
 		newMessage.user_to = "Public";
@@ -19,7 +19,7 @@ exports.createMessage = function(message, user_from, user_to, pub, chatRoom, cal
 		}
 		callback(result);
 	});
-}
+};
 
 exports.getMessagesByUser = function(user, callback){
 	Message.find({user_from : user}, function(err, result){
@@ -31,7 +31,7 @@ exports.getMessagesByUser = function(user, callback){
 };
 
 exports.getMessagesByChatRoom = function(chatRoom, callback){
-	Message.find({chatRoom : chatRoom}, function(err, result){
+	Message.find({chatRoom : chatRoom._id}, function(err, result){
 		if(err){
 			throw err;
 		}

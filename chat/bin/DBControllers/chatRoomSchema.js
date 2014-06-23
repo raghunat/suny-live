@@ -20,4 +20,4 @@ var ChatRoom = mongoose.model('ChatRoom', chatRoomSchema);
 
 module.exports = {
 	ChatRoom : ChatRoom
-}
+};

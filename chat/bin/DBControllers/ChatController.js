@@ -1,4 +1,4 @@
-var ChatRoom = require('./chatRoomSchema').User;
+var ChatRoom = require('./chatRoomSchema').ChatRoom;
 
 exports.createChatRoom =  function(name, date, presenter, type, className, school, files, participants){
     var newChat = new ChatRoom();
@@ -54,12 +54,12 @@ exports.removeUser = function(name){
     }); 
 };
 
-exports.findChatRoomByName = function(name){
+exports.findChatRoomByName = function(name, callback){
      ChatRoom.findOne({name : name}, function(err,result){
         if(err){
             throw err;
         }
-        return result;
+        callback(result);
     });
 };
 

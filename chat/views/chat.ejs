@@ -39,12 +39,64 @@
 
 	<br>
 	<br>
-
+    <ul id="chat">
 	<% for (var i in messages) { %>
-		<p ><%= messages[i].user.ref %></p>
-		<p id="msg"><%= messages[i].message %></p>
+        <li>
+            <p id="msg"><span><b><%= messages[i].user_from %></b></span> <%= messages[i].message %></p>
+        </li>
 	<% } %>
+    </ul>
 
+    <ul id="private">
 
+    </ul>
+
+    <form id="publicForm" action="">
+        <input id="m" autocomplete="off" placeholder="Public Chat"/>
+        <button>Send</button>
+    </form>
+    <form id="privateForm" action="">
+        <input id="p" type="text" placeholder="Private Chat">
+        <button>Send</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        var socket = io();
+
+        socket.on("connect", function(data){
+            socket.emit('join', "<%= user.name %>", <%= user.type %>);
+        });
+
+        socket.on("join", function(user){
+            //TODO create flash when user joins
+        });
+
+        socket.on("chat message received", function(msg){
+            $("#chat").append($("<li>").text(msg.message));
+        });
+
+        socket.on("private message received", function(msg){
+            //TODO handle presenter UI with multiple private chats based on User Name
+            $("#private").append($("<li>").text(msg.message));
+        });
+
+        //TODO update creation of html for public message
+        $("#publicForm").submit(function(){
+            socket.emit("chat message", "<%= user.name %>", $("#m").val());
+            $("#m").val('');
+            return false;
+        });
+
+        //TODO update creation of html for private message
+        //TODO update socket emit to handle which person to send it to: Presenter? Student?
+        $("#privateForm").submit(function(){
+            socket.emit("private message", "<%= user.name %>", "user to", $("#p").val());
+            $("#p").val('');
+            return false;
+        });
+
+    </script>
 </body>
 </html>
