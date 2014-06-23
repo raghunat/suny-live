@@ -1,16 +1,18 @@
 var mongoose = require('mongoose');
-//message Schema
+
+//snippetSchema
 var snippetSchema = mongoose.Schema({
+	snippetName : String,
 	text : String,  
 	className : String, 
 	presenter : String,  
-	chatRoom  : {type: Schema.ObjectId, ref: 'ChatRoom'}, 
-	date : Date,
+	chatRoom  : {type: String, ref: 'ChatRoom'}, 
+	date : {type: Date, default: Date.now},
 	timeaccessed : Number
 });
 
 //instance of the model
-var Snippet = mongoose.model('Message', snippetSchema);
+var Snippet = mongoose.model('Snippet', snippetSchema);
 
 module.exports = {
 	Snippet : Snippet
