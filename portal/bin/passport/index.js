@@ -4,10 +4,11 @@ var LocalStrategy = require('passport-local').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 var TwitterStrategy = require('passport-twitter').Strategy;
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+var Mongoose = require("mongoose");
 var encrypt = require('../encrypt');
 
 // load up the user model
-var User = require('../../../chat/bin/DBControllers/UserController.js');
+var User = require('../models/UserController.js');
 
 // load the auth variables
 var configAuth = require('./config/auth'); // use this one for testing
@@ -27,7 +28,7 @@ module.exports = function (passport) {
 
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
-        User.findById(id, function (err, user) {
+        User.Schema.findById(id, function (err, user) {
             done(err, user);
         });
     });
@@ -45,11 +46,10 @@ module.exports = function (passport) {
 
             // asynchronous
             process.nextTick(function () {
-                User.findUserByEmail({ 'email': email }, function (err, user) {
-                    // if there are any errors, return the error
-                    if (err)
-                        return done(err);
-
+                User.findUserByEmail(email, function (user) {
+                    console.log(email);
+                    console.log(password);
+                    console.log(user);
                     // if no user is found, return the message
                     if (!user)
                         return done(null, false, req.flash('loginMessage', 'No user found.'));

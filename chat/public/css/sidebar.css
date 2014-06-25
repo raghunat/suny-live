@@ -1,0 +1,111 @@
+html,body{
+  margin:0;
+  padding:0;
+  font-size: 14px;
+}
+
+#content h3, #content h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+a {
+  color:white;
+}
+
+#sidebar{
+  color: #fff;
+  background: #424F63;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+  width: 345px;
+  top:0;
+  left:-300px;
+  z-index: 1000;
+}
+  #sidebar h3 {
+    padding:0;
+    margin: 10px 0 0 0;
+  }
+
+  #sidebar h4 {
+    color: #65cea7;
+    margin-top: 20px;
+  }
+
+.block {
+  height: 120px;
+  margin-right: 30px;
+  padding: 5px 5px 0 15px;
+  overflow-y: auto;
+}
+
+.class-description {
+  height: auto;
+}
+
+.list-group {
+  margin-right: 10px;
+}
+
+a.list-group-item {
+  color:white;
+  padding: 3px;
+  background: #424F63;
+  border: none;
+  border-radius: 5px;
+}
+
+  a.list-group-item:hover {
+    color:white;
+    background: #687FA1;
+  }
+
+  a.list-group-item img {
+    width: 25px;
+    height: 25px;
+  }
+
+  a.list-group-item .glyphicon {
+    padding-top: 5px;
+  }
+
+.sidebar-avatar {
+  margin-top: 25px;
+  padding: 20px 0 0 15px;
+}
+.sidebar-avatar img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  vertical-align: middle;
+}
+
+.chat-description {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+
+  .chat-description li{
+    width: 100%;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+.chat-student {
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+#content {
+   background: #687FA1;
+   height: 100%;
+   width: 96.5%;
+   margin-left: 45px;
+   position: absolute;
+}

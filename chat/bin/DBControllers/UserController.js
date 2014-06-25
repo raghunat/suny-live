@@ -89,7 +89,8 @@ exports.findUserByName = function(name, callback){
 };
 
 exports.findUserByEmail = function(email, callback){
-    User.findOne({email : email}, function(err, result){
+    User.findOne({'email' : email}, function(err, result){
+        console.log(result);
         if(err){
             throw err;
         }else{
