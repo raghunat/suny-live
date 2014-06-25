@@ -1,8 +1,9 @@
 var Message = require('./messageSchema').Message;
+var encrypt = require("../encrypt");
 
 exports.createMessage = function(message, user_from, user_to, pub, chatRoom, callback){
 	var newMessage = new Message();
-    newMessage.message = message;
+  newMessage.message = encrypt.encryptNormal(message);
 	newMessage.user_from = user_from;
 	if (pub === true){
 		newMessage.user_to = "Public";
@@ -10,9 +11,8 @@ exports.createMessage = function(message, user_from, user_to, pub, chatRoom, cal
 		newMessage.user_to = user_to;
 	}
 	newMessage.pub = pub;
-	newMessage.chatRoom = chatRoom._id; 
-	newMessage.date = Date.now();
-
+	newMessage.chatRoom = chatRoom._id;
+	
 	newMessage.save(function(err, result){
 		if(err){
 			throw err;
@@ -26,6 +26,9 @@ exports.getMessagesByUser = function(user, callback){
 		if(err){
 			throw err;
 		}
+		for (var i= result.length - 1; i >= 0; i--) {
+			result[i].message = encrypt.decryptNormal(result[i].message);
+		};
 		callback(result);
 	});
 };
@@ -35,6 +38,9 @@ exports.getMessagesByChatRoom = function(chatRoom, callback){
 		if(err){
 			throw err;
 		}
+		for (var i= result.length - 1; i >= 0; i--) {
+			result[i].message = encrypt.decryptNormal(result[i].message);
+		};
 		callback(result);
 	});
 };
@@ -45,6 +51,9 @@ exports.getMessageByDate = function(date, callback){
 		if(err){
 			throw err;
 		}
+		for (var i= result.length - 1; i >= 0; i--) {
+			result[i].message = encrypt.decryptNormal(result[i].message);
+		};
 		callback(result);
 	});
 };
@@ -54,6 +63,9 @@ exports.getMessageRangeDate = function(from_date, to_date, callback){
 		if(err){
 			throw err;
 		}
+		for (var i= result.length - 1; i >= 0; i--) {
+			result[i].message = encrypt.decryptNormal(result[i].message);
+		};
 		callback(result);
 	});
 };
