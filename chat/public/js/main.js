@@ -117,6 +117,16 @@ socket.on("join", function(user){
     // TODO create flash when user joins
 });
 
+socket.on("joining", function(name){
+    if(name != CURRENT_USER_NAME){
+        addUser(user);
+    }
+});
+
+socket.on("screenshare received", function(data){
+    $("#content").css("background", "url(data:image/jpeg;base64,"+data+")");
+});
+
 socket.on("chat message received", function(msg){
     
     console.log("received");
@@ -132,6 +142,10 @@ socket.on("chat message received", function(msg){
 socket.on("private message received", function(msg) {
     // TODO handle presenter UI with multiple private chats based on User Name
     // $("#private").append($("<li>").text(msg.message));
+});
+
+socket.on("snippet received", function(snippet){
+    addSnippet(snippet);
 });
 
 function emitMessage(message, to) {
@@ -214,3 +228,16 @@ function scrollDown (selector, speed) {
 }
 
 scrollDown(".chat-panel");
+
+
+// Add Snippet
+function addSnippet(snippet) {
+    var snippetHTML = "<a class=\"list-group-item\" href=\"/snippets/" + snippet._id + "\" rel=\"tooltip\" data-placement=\"top\" title=\"Download file\"><span class=\"files\"><img src=\"\/img\/file.png\"> "+snippet.snippetName+"<span class=\"pull-right\">"+snippet.date+"<\/span><\/span>\r\n<\/a>";
+    $("#snippets").append(snippetHTML);
+
+}
+
+function addUser(user) {
+    var userHTML = "<a class=\"list-group-item\" href=\"#\" rel=\"tooltip\" data-placement=\"top\" title=\"Start a private chat\">\r\n<img src=\"\/img\/avatar.png\">"+user+"<span class=\"glyphicon glyphicon-comment pull-right\"><\/span>\r\n<\/a>";
+    $("#users").append(userHTML);
+}

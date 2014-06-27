@@ -2,491 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd80e1a3-1f00-4932-9ad3-76fbe235f2ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.v12.suo" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.v12.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/base64.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/base64.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/bson.node" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/bson.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/win32/ia32/bson.node" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/win32/ia32/bson.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/win32/x64/bson.node" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/win32/x64/bson.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/obj.target/bson/ext/bson.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/obj.target/bson/ext/bson.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/kerberos.node" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/kerberos.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberos.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberos.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberos_context.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberos_context.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberosgss.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/kerberosgss.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/worker.o" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos/lib/worker.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/.dntrc" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/.dntrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/.gitattributes" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/.gitattributes" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.orig" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.orig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.rej" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.rej" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/.name" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/should/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/static-favicon/.npmignore" afterPath="$PROJECT_DIR$/portal/node_modules/static-favicon/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/portal/node_modules/should/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/HISTORY.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/HISTORY.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/HISTORY.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/HISTORY.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/History.md" afterPath="$PROJECT_DIR$/portal/node_modules/should/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/uid2/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/uid2/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/should/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/static-favicon/LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/static-favicon/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/libraries/Node_js_Dependencies_for_mpromise.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/libraries/Node_js_Dependencies_for_mpromise.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/libraries/Node_js_Dependencies_for_should_js.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/libraries/Node_js_Dependencies_for_should_js.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.njsproj" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.njsproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.sln" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/OpenID.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/README.markdown" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/README.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/diff/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/diff/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/express/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/express/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/express/connection-sharing/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/examples/express/connection-sharing/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/static-favicon/README.md" afterPath="$PROJECT_DIR$/portal/node_modules/static-favicon/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/debug/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/debug/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/debug/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/oauth/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/pause/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/Readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/should/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/lib/drivers/SPEC.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/lib/drivers/SPEC.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/bin/DBControllers/UserController.js" afterPath="$PROJECT_DIR$/chat/bin/DBControllers/UserController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/.bin/_mocha" afterPath="$PROJECT_DIR$/portal/node_modules/.bin/_mocha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/bin/_mocha" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/bin/_mocha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/expressjs_sample/authentication_controller.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/expressjs_sample/authentication_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/bCrypt.js" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/bCrypt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/base64.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/base64.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/base64.o.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/binding.Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/binding.Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/binding.Makefile" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/binding.Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/binding.gyp" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/binding.gyp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/binding.gyp" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/binding.gyp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/bson.node.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/bson.node.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/bson.target.mk" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/bson.target.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/config.gypi" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/config.gypi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/build/config.gypi" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/build/config.gypi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/config.gypi" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/config.gypi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/contRun.sh" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/contRun.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/convert.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/convert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/encodings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/encodings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/test/fixtures/error.out" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/test/fixtures/error.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/gyp-mac-tool" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/gyp-mac-tool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/gyp-mac-tool" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/gyp-mac-tool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/index.js" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/jade.md" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/jade.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/.bin/jade" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/.bin/jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/bin/jade" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/bin/jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/jsLinters/jshint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/kerberos.node.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/kerberos.node.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberos.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberos.o.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/kerberos.target.mk" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/kerberos.target.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberos_context.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberos_context.o.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberosgss.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberosgss.o.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/expressjs_sample/login.jade" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/expressjs_sample/login.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/types/mime.types" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/types/mime.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/types/mime.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/types/mime.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/types/mime.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/types/mime.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/types/mime.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/types/mime.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/misc.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/misc.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/.bin/mocha" afterPath="$PROJECT_DIR$/portal/node_modules/.bin/mocha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/bin/mocha" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/bin/mocha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/modules.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/modules.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/mpromise.iml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/mpromise.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/types/node.types" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/types/node.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/types/node.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/types/node.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/types/node.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/types/node.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/types/node.types" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/types/node.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/openid.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/openid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/openid_fast_tests.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/openid_fast_tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/openid_integration_tests.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/openid_integration_tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/other.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/other.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/raw-body/node_modules/string_decoder/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/body-parser/node_modules/type-is/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/cookie-parser/node_modules/cookie-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/ejs/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/ejs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/buffer-crc32/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/cookie-signature/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/escape-html/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/fresh/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/merge-descriptors/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/methods/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/parseurl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/path-to-regexp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/range-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/debug/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/send/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/serve-static/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/type-is/node_modules/mime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/utils-merge/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/diff/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/diff/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/growl/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/hooks/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpath/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mquery/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/ms/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/muri/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/regexp-clone/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/sliced/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/morgan/node_modules/bytes/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/passport-strategy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/uid2/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-facebook/node_modules/passport-oauth2/node_modules/uid2/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/oauth/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/passport-oauth/node_modules/passport/node_modules/pause/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google-oauth/node_modules/pkginfo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/passport/node_modules/pause/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/pkginfo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-local/node_modules/passport-strategy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/oauth/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/passport-strategy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/passport-oauth1/node_modules/utils-merge/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/passport/node_modules/passport-strategy/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/should/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/static-favicon/package.json" afterPath="$PROJECT_DIR$/portal/node_modules/static-favicon/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.orig" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.orig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.rej" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.rej" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/readme.markdown" afterPath="$PROJECT_DIR$/portal/node_modules/mocha/node_modules/mkdirp/readme.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/express/node_modules/accepts/node_modules/negotiator/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/readme.md" afterPath="$PROJECT_DIR$/portal/node_modules/passport-twitter/node_modules/xtraverse/node_modules/xmldom/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/release-items.md" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/release-items.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/sample.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/should.js.iml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/should.js.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/libraries/should_js_node_modules.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/libraries/should_js_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/t" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/t" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/test-async.js" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/test-async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/test-sync.js" afterPath="$PROJECT_DIR$/portal/node_modules/bcrypt-nodejs/test-sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/v8.result" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/v8.result" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/vcs.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/vcs.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/worker.o.d" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/worker.o.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js" afterPath="$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/bin/DBControllers/SnippetController.js" afterPath="$PROJECT_DIR$/chat/bin/DBControllers/SnippetController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/app.js" afterPath="$PROJECT_DIR$/chat/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/app.js" afterPath="$PROJECT_DIR$/portal/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/public/css/chat.css" afterPath="$PROJECT_DIR$/chat/public/css/chat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/views/chat.ejs" afterPath="$PROJECT_DIR$/chat/views/chat.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/views/index.ejs" afterPath="$PROJECT_DIR$/portal/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/bin/encrypt/index.js" afterPath="$PROJECT_DIR$/chat/bin/encrypt/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/bin/encrypt/index.js" afterPath="$PROJECT_DIR$/portal/bin/encrypt/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/bin/passport/index.js" afterPath="$PROJECT_DIR$/portal/bin/passport/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/public/js/main.js" afterPath="$PROJECT_DIR$/chat/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js" afterPath="$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/views/profile.ejs" afterPath="$PROJECT_DIR$/portal/views/profile.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/public/css/sidebar.css" afterPath="$PROJECT_DIR$/chat/public/css/sidebar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/workspace.xml" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mpromise/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/should/.idea/workspace.xml" afterPath="$PROJECT_DIR$/portal/node_modules/should/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/wscript" afterPath="$PROJECT_DIR$/portal/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/wscript" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/xrds.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/lib/xrds.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/xrds_tests.js" afterPath="$PROJECT_DIR$/portal/node_modules/passport-google/node_modules/passport-openid/node_modules/openid/test/xrds_tests.js" />
     </list>
     <ignored path="suny-live.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -508,108 +38,96 @@
     <favorites_list name="suny-live" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1422" max-vertical-offset="4185">
-              <caret line="132" column="95" selection-start-line="132" selection-start-column="95" selection-end-line="132" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/bin/passport/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="5160">
-              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/UserController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1860">
-              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertUsers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/insertUsers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encrypt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/encrypt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userSchema.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10507881" vertical-offset="0" max-vertical-offset="571">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageSchema.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="975">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3045">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="chat.ejs" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat/views/chat.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-17.875" vertical-offset="3606" max-vertical-offset="4440">
+                  <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chat.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/chat/public/css/chat.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.91240877" vertical-offset="2435" max-vertical-offset="3165">
+                  <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/portal/bin/passport/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="5160">
+                  <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/portal/bin/encrypt/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
+                  <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat/bin/encrypt/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="435">
+                  <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2685">
+                  <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="SnippetController.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/SnippetController.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="600">
+                  <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/chat/public/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.20487106" vertical-offset="1732" max-vertical-offset="3705">
+                  <caret line="126" column="76" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -626,24 +144,28 @@
         <option value="$PROJECT_DIR$/chat/bin/DBControllers/ChatController.js" />
         <option value="$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js" />
         <option value="$PROJECT_DIR$/chat/bin/DBControllers/snippetSchema.js" />
-        <option value="$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js" />
-        <option value="$PROJECT_DIR$/chat/app.js" />
-        <option value="$PROJECT_DIR$/chat/views/chat.ejs" />
         <option value="$PROJECT_DIR$/passport/app/routes.js" />
-        <option value="$PROJECT_DIR$/chat/bin/encrypt/index.js" />
         <option value="$PROJECT_DIR$/portal/views/index.ejs" />
         <option value="$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js" />
-        <option value="$PROJECT_DIR$/portal/app.js" />
         <option value="$PROJECT_DIR$/portal/routes/index.js" />
-        <option value="$PROJECT_DIR$/portal/bin/passport/index.js" />
         <option value="$PROJECT_DIR$/chat/bin/DBControllers/UserController.js" />
+        <option value="$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js" />
+        <option value="$PROJECT_DIR$/chat/bin/DBControllers/SnippetController.js" />
+        <option value="$PROJECT_DIR$/chat/bin/encrypt/index.js" />
+        <option value="$PROJECT_DIR$/portal/bin/encrypt/index.js" />
+        <option value="$PROJECT_DIR$/portal/bin/passport/index.js" />
+        <option value="$PROJECT_DIR$/portal/app.js" />
+        <option value="$PROJECT_DIR$/chat/views/chat.ejs" />
+        <option value="$PROJECT_DIR$/chat/public/js/main.js" />
+        <option value="$PROJECT_DIR$/chat/app.js" />
+        <option value="$PROJECT_DIR$/chat/public/css/chat.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="983" />
+    <option name="width" value="1920" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -704,6 +226,158 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="passport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="encrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny-live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -718,15 +392,12 @@
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portal/views" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -737,14 +408,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -752,6 +421,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -795,14 +474,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="983" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1881299" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19934994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16459627" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12718505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14533965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -810,11 +489,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -837,11 +516,113 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portal/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
-          <caret line="132" column="95" selection-start-line="132" selection-start-column="95" selection-end-line="132" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1860">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/insertUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1230">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="495">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="975">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3045">
+          <caret line="47" column="0" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/bin/passport/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="5160">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1860">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/insertUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1140">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="495">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="975">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3045">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -857,21 +638,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="993" max-vertical-offset="1860">
           <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/insertUsers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/encrypt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -889,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="495">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="975">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,15 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3045">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4185">
-          <caret line="132" column="95" selection-start-line="132" selection-start-column="95" selection-end-line="132" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="993" max-vertical-offset="1845">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="495">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="975">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,14 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3045">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1010,20 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3642384" vertical-offset="595" max-vertical-offset="2055">
-          <caret line="58" column="96" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/views/chat.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73790324" vertical-offset="861" max-vertical-offset="1605">
-          <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/snippetSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="768">
@@ -1031,63 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passport/app/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7890625" vertical-offset="0" max-vertical-offset="3015">
-          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/bin/encrypt/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4296875" vertical-offset="0" max-vertical-offset="768">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passport/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6640625" vertical-offset="0" max-vertical-offset="768">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="787">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1422" max-vertical-offset="4185">
-          <caret line="132" column="95" selection-start-line="132" selection-start-column="95" selection-end-line="132" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3045">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,42 +780,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/encrypt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="789">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/bin/passport/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="5160">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1860">
           <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/messageSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35814607" vertical-offset="0" max-vertical-offset="712">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/MessageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56882024" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3045">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/SnippetController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20487106" vertical-offset="1732" max-vertical-offset="3705">
+          <caret line="126" column="76" selection-start-line="126" selection-start-column="76" selection-end-line="126" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.58189654" vertical-offset="0" max-vertical-offset="1365">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/bin/DBControllers/userSchema.js">
+    <entry file="file://$PROJECT_DIR$/portal/bin/passport/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10507881" vertical-offset="0" max-vertical-offset="571">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="5145">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/bin/encrypt/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/bin/encrypt/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2685">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/views/chat.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.875" vertical-offset="3606" max-vertical-offset="4440">
+          <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/public/css/chat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91240877" vertical-offset="2435" max-vertical-offset="3165">
+          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
           <folding />
         </state>
       </provider>

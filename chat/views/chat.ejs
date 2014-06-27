@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>SUNY Live</title>
-    
+
     <!-- Latest compiled and minified Bootstrap -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -18,225 +18,274 @@
     <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-	<!-- 
-		// CHAT OBJECT PROPERTIES
-            // id : String,
-			// name : String,
-			// date  : Date,
-			// type : Number,
-			// className : String,
-			// school : String,
-			// files : Array,
-			// presenter : {type : String, ref : 'User'},
-			// participants : {type : Array, ref : 'User'}
-		
-        // Messages OBJECT PROPERTIES
-			// 	message : String,
-			// 	user : {type: Number, ref: 'User'},
-			// 	chatRoom  : {type: String, ref: 'ChatRoom'},
-			// 	date : Date	
-	-->
 
-	<!-- <div id="container-fluid"> -->
-        <!--Sidebar -->  
-        <!-- <div id="sidebar"> -->
-            
-            <!--Logo-->
-            <!-- <div class="col-xs-12"><h3>SUNY Live</h3></div> -->
+<div id="container-fluid">
+    <!--Sidebar -->
+    <div id="sidebar">
 
-            <!--Avatar-->
-           <!--  <div class="sidebar-avatar">
-                <img src="/img/avatar.png">
-                <span class="chat-student">Welcome, Students's Name</span>
-            </div> -->
-          
-            <!-- Class Information Block -->
-            <!-- <div class="col-xs-12">
-                <h4>General Information <span class="glyphicon glyphicon-th-list pull-right"></span></h4>
-                <div class="row block class-description">  
-                    <ul class="chat-description">
-                        <li><span class="chat-label">Chat Name: </span><span><%= chat.name %></span></li>
-                        <li><span class="chat-label">Class: </span><span><%= chat.classname %></span></li>
-                        <li><span class="chat-label">Presenter: </span><span><%= chat.presenter %></span></li>
-                        <li><span class="chat-label">Type: </span><span><%= chat.type == 0 ? "Public" : "Private" %></span></li>
-                        <li><span class="chat-label">Date: </span><span><%= chat.date %></span></li>
-                        <li><span class="chat-label">School: </span><span>06/23/2014</span></li>
-                    </ul>
-                </div>
-            </div> -->
+        <!--Logo-->
+        <h3>SUNY Live</h3>
 
-            <!-- Class Participants Block -->
-            <!-- <div class="col-xs-12">
-                <h4>Participants <span class="glyphicon glyphicon-user pull-right"></span></h4>
-                <div class="row block">
-                    <ul class="list-group">
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat">
-                            <img src="/img/avatar.png"> Name<span class="glyphicon glyphicon-comment pull-right"></span>
-                        </a>
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat">
-                            <img src="/img/avatar.png"> Name<span class="glyphicon glyphicon-comment pull-right"></span>
-                        </a>
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat">
-                            <img src="/img/avatar.png"> Name<span class="glyphicon glyphicon-comment pull-right"></span>
-                        </a>
-                    </ul>
-                </div>
-            </div> -->
+        <!--Avatar-->
+        <div class="sidebar-avatar">
+            <img src="/img/avatar.png">
+            <span class="chat-student">Welcome, Students's Name</span>
+        </div>
 
-            <!-- Class Shared Files Block -->
-            <!-- <div class="col-xs-12">
-                <h4>Shared Files <span class="glyphicon glyphicon-share pull-right"></span></h4>
-                <div class="row block">
-                    <ul class="list-group">
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
-                            <div class="files"><img src="/img/file.png"> File Name<span class="pull-right"> Date</span></div>
-                        </a>
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
-                            <div class="files"><img src="/img/file.png"> File Name<span class="pull-right"> Date</span></div>
-                        </a>
-                        <a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">
-                            <div class="files"><img src="/img/file.png"> File Name <span class="pull-right"> Date</span></div>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-  
-        <!-- Content: Presenter's screen -->
-        <!-- <div id="content" class="col-xs-12"></div>
-    </div> -->
+        <!-- Class Information Block -->
+        <h4>General Information <span class="glyphicon glyphicon-th-list pull-right"></span></h4>
+        <ul class="list-group chat-description hidden">
+            <li class="list-group-item"><span class="chat-label">Chat Name: </span><span><%= chat.name %></span></li>
+            <li class="list-group-item"><span class="chat-label">Class: </span><span><%= chat.classname %></span></li>
+            <li class="list-group-item"><span class="chat-label">Presenter: </span><span><%= chat.presenter %></span></li>
+            <li class="list-group-item"><span class="chat-label">Type: </span><span><%= chat.type == 0 ? "Public" : "Private" %></span></li>
+            <li class="list-group-item"><span class="chat-label">Date: </span><span><%= chat.date %></span></li>
+            <li class="list-group-item"><span class="chat-label">School: </span><span>06/23/2014</span></li>
+        </ul>
 
-    <div id="chat-row" class="row">        
-        
-        <div class="col-xs-12 col-sm-6 col-md-4 chat-col clone"> <!-- Model for new elements -->
-            <div class="panel panel-default chat-panel">
-                <div class="panel-heading">
-                    <span class="chat-name"></span>
-                    <button type="button" class="win-btn close" aria-hidden="true">&times;</button>
-                    <button type="button" class="win-btn resize" aria-hidden="true">&nwarr;</button> <!-- &searr; -->
-                    <button type="button" class="win-btn minimize" aria-hidden="true">&ndash;</button> <!-- &oline -->
-                </div>
-                <div class="panel-body chat">
-                    <ul>
-                        <li class="clone">
-                            <div class="avatar pull-left" style="background-color:#428bca"></div>
-                            <div class="message-body clearfix">
-                                <div class="message-header">
-                                    <strong class="user"></strong>
-                                    <small class="pull-right text-muted">
-                                        <span class="glyphicon glyphicon-time"></span> <span class="time"></span>
-                                    </small>
-                                </div>                              
-                                <p class="message"></p>
-                            </div>
-                        </li>                       
-                    </ul>                   
-                </div>
-                <div class="panel-footer">
-                    <form role="form">
-                        <div class="input-group">
-                            <textarea name="message-user" class="form-control message-user" rows="1" placeholder="Type here..."></textarea>
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-paperclip"></span>
-                                </button>
-                                <button type="button" class="btn btn-default send-message">Send</button>
-                            </span>
-                        </div>
-                    </form>
-                </div>            
-            </div> <!-- end of the .chat-panel -->        
-        </div> <!-- end of the .chat-col -->
-        
-        <div class="col-xs-12 col-sm-6 col-md-4 chat-col">
-            <div id="public" class="panel panel-default chat-panel">
-                <div class="panel-heading">
-                    <span class="chat-name">Public Chat</span>
-                    <button type="button" class="win-btn close" aria-hidden="true">&times;</button>
-                    <button type="button" class="win-btn resize" aria-hidden="true">&nwarr;</button>
-                    <button type="button" class="win-btn minimize" aria-hidden="true">&ndash;</button>
-                </div>
-                <div class="panel-body chat">
-                    <ul>
-                        
-                        <% for (var i in messages) { %>
-                        <li>
-                            <div class="avatar pull-left" style="background-color:#428bca"></div>
-                            <div class="message-body clearfix">
-                                <div class="message-header">
-                                    <strong class="user"><%= messages[i].user_from %></strong>
-                                    <small class="pull-right text-muted">
-                                        <span class="glyphicon glyphicon-time"></span> <span class="time">15 mins ago</span>
-                                    </small>
-                                </div>                              
-                                <p class="message"><%= messages[i].message %></p>
-                            </div>
-                        </li>
-                        <% } %>                      
-                    </ul>                   
-                </div>
-                <div class="panel-footer">
-                    <form role="form">
-                        <div class="input-group">
-                            <textarea name="message-user" class="form-control message-user" rows="1" placeholder="Type here..."></textarea>
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-paperclip"></span>
-                                </button>
-                                <button type="button" class="btn btn-default send-message">Send</button>
-                            </span>
-                        </div>
-                    </form>
-                </div>            
-            </div> <!-- end of the .chat-panel -->        
-        </div> <!-- end of the .chat-col -->
-    
-    </div> <!-- end of the #chat-row -->
+        <!-- Class Participants Block -->
+        <h4>Users <span class="glyphicon glyphicon-user pull-right"></span></h4>
+        <div id="users" class="list-group">
+            <!--<a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Start a private chat">-->
+                <!--<img src="/img/avatar.png"> Name<span class="glyphicon glyphicon-comment pull-right"></span>-->
+            <!--</a>-->
+        </div>
 
+        <!-- Class Shared Files Block -->
+        <h4>Shared Files
+            <a id="modal-777838" href="#modal-container-777838" role="button" data-toggle="modal">
+                <span class="glyphicon glyphicon-share pull-right"></span>
+            </a>
+        </h4>
+        <div id="snippets" class="list-group">
+            <!--<a class="list-group-item" href="#" rel="tooltip" data-placement="top" title="Download file">-->
+                <!--<span class="files"><img src="/img/file.png"> File Name<span class="pull-right"> Date</span></span>-->
+            <!--</a>-->
 
-    <!-- fullscreen -->
+        </div>
 
-    <div id="chat-wrapper">
-        <div id="chat-wrapper-bg"></div>
-        <div id="fullscreen"></div>
     </div>
 
-    <!-- Custom js -->
-    <script type="text/javascript">
-        
-        // var CURRENT_USER_NAME = "<%= user.name %>",
-        //     USER_TYPE = <%= user.type %>;
+    <!-- Content: Presenter's screen -->
+    <div id="content" class="col-xs-12"></div>
+</div>
 
-        var CURRENT_USER_NAME = "gustavo",
-            USER_TYPE = 0;
+<div id="chat-row" class="row">
 
-    </script>    
-    
-    <script type="text/javascript" src="/js/main.js"></script>
-    
-    <script language="javascript">
-        
-        // Anything else ========================================
-        // ======================================================
+    <div class="col-xs-12 col-sm-6 col-md-4 chat-col clone"> <!-- Model for new elements -->
+        <div class="panel panel-default chat-panel">
+            <div class="panel-heading">
+                <span class="chat-name"></span>
+                <button type="button" class="win-btn close" aria-hidden="true">&times;</button>
+                <button type="button" class="win-btn resize" aria-hidden="true">&nwarr;</button> <!-- &searr; -->
+                <button type="button" class="win-btn minimize" aria-hidden="true">&ndash;</button> <!-- &oline -->
+            </div>
+            <div class="panel-body chat">
+                <ul>
+                    <li class="clone">
+                        <div class="avatar pull-left" style="background-color:#428bca"></div>
+                        <div class="message-body clearfix">
+                            <div class="message-header">
+                                <strong class="user"></strong>
+                                <small class="pull-right text-muted">
+                                    <span class="glyphicon glyphicon-time"></span> <span class="time"></span>
+                                </small>
+                            </div>
+                            <p class="message"></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <form role="form">
+                    <div class="input-group">
+                        <textarea name="message-user" class="form-control message-user" rows="1" placeholder="Type here..."></textarea>
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-paperclip"></span>
+                                </button>
+                                <button type="button" class="btn btn-default send-message">Send</button>
+                            </span>
+                    </div>
+                </form>
+            </div>
+        </div> <!-- end of the .chat-panel -->
+    </div> <!-- end of the .chat-col -->
 
-        // $(window).load(function () {
-        //     $(document).ready(function(){
+    <div class="col-xs-12 col-sm-6 col-md-4 chat-col">
+        <div id="public" class="panel panel-default chat-panel">
+            <div class="panel-heading">
+                <span class="chat-name">Public Chat</span>
+                <!--<button type="button" class="win-btn close" aria-hidden="true">&times;</button>-->
+                <button type="button" class="win-btn resize" aria-hidden="true">&nwarr;</button>
+                <button type="button" class="win-btn minimize" aria-hidden="true">&ndash;</button>
+            </div>
+            <div class="panel-body chat">
+                <ul>
 
-        //         $("#sidebar").hover(function(){
-        //             TweenMax.to("#sidebar",0.7, {left:"0", top:"0",ease:Power1.easeOut});
-        //             TweenMax.to("#content",0.7, {left:"300", width:"74.7%",top:"0",ease:Power1.easeOut});
-        //         });
+                    <% for (var i in messages) { %>
+                    <li>
+                        <div class="avatar pull-left" style="background-color:#428bca"></div>
+                        <div class="message-body clearfix">
+                            <div class="message-header">
+                                <strong class="user"><%= messages[i].user_from %></strong>
+                                <small class="pull-right text-muted">
+                                    <span class="glyphicon glyphicon-time"></span> <span class="time">15 mins ago</span>
+                                </small>
+                            </div>
+                            <p class="message"><%= messages[i].message %></p>
+                        </div>
+                    </li>
+                    <% } %>
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <form role="form">
+                    <div class="input-group">
+                        <textarea name="message-user" class="form-control message-user" rows="1" placeholder="Type here..."></textarea>
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-paperclip"></span>
+                                </button>
+                                <button type="button" class="btn btn-default send-message">Send</button>
+                            </span>
+                    </div>
+                </form>
+            </div>
+        </div> <!-- end of the .chat-panel -->
+    </div> <!-- end of the .chat-col -->
 
-        //         $("#sidebar").mouseleave(function(){
-        //             TweenMax.to("#sidebar",0.7, {left:"-300", top:"0",ease:Power1.easeOut});
-        //             TweenMax.to("#content",0.7, {left:"0",width:"96.7%", top:"0",ease:Power1.easeOut});
-        //         });
+</div> <!-- end of the #chat-row -->
 
-        //         $("[rel='tooltip']").tooltip();
 
-        //     });
-        // });
+<!-- fullscreen -->
 
-    </script>
+<div id="chat-wrapper">
+    <div id="chat-wrapper-bg"></div>
+    <div id="fullscreen"></div>
+</div>
+
+<!-- Custom js -->
+<script type="text/javascript">
+
+    var CURRENT_USER_NAME = "<%= user.name %>",
+        USER_TYPE = <%= user.type %>;
+
+    // var CURRENT_USER_NAME = "gustavo",
+    //     USER_TYPE = 0;
+
+</script>
+
+<div class="modal fade" id="loginForm" tabindex="9999" width="300" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Login</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row omb_row-sm-offset-3">
+
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+
+                        <div class="omb_loginForm" autocomplete="off">
+                            <div class="input-group">
+
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+
+                                <input type="text" class="form-control" id="email" name="email" placeholder="email address">
+
+                            </div>
+
+                            <span class="help-block"></span>
+
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input  type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" onClick="login();">Login</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Sign up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modal-container-777838" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Create a file
+                </h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <span class="label label-default">Title</span>
+                    <input id ="fileTitle" type="text" class="form-control" placeholder="Type the title here">
+                </div>
+                <textarea id="fileContent" class="form-control" rows="10" placeholder="Type your stuff here"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> <button type="button" class="btn btn-primary" onclick="saveSnippet()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+<script type="text/javascript" src="/js/main.js"></script>
+<script>
+    $('#loginForm').modal({
+        backdrop : 'static'
+    }).show();
+
+
+    function login(){
+        var url = "/login";
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var data = {"email" : email, "password" : password};
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: data,
+            statusCode: {
+                200: function(res){
+                    $('#loginForm').modal('hide');
+                },
+                403: function(){
+                    alert("Authentication Failed");
+                },
+                500: function() {
+                    alert("An error occured.");
+                }
+            }
+        });
+    }
+    function saveSnippet()
+    {
+        $.ajax({
+            url: '/snippets',
+            type: 'POST',
+            crossDomain: true,
+            data:{
+                snippetName: $("#fileTitle").val(),
+                text: $("#fileContent").val(),
+                className : "<%= chat.classname %>",
+                presenter : "<%= chat.presenter %>",
+                chatRoom : "<%= chat._id %>"
+            },
+            success : function(){
+                alert("Snippet Created!");
+            }
+        });
+    }
+</script>

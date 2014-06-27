@@ -1,4 +1,4 @@
-html,body{
+html, body{
   margin:0;
   padding:0;
   font-size: 14px;
@@ -14,31 +14,54 @@ a {
   color:white;
 }
 
-#sidebar{
+#sidebar {
+  z-index: 99;
+  position: fixed;
+  width: 345px;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left:-300px;
+  transition: left 0.3s;
+  -webkit-transition: left 0.3s; /* Safari */
   color: #fff;
   background: #424F63;
-  height: 100%;
-  position: absolute;
-  padding: 0;
-  width: 345px;
-  top:0;
-  left:-300px;
-  z-index: 1000;
+  overflow: auto;
 }
-  #sidebar h3 {
-    padding:0;
-    margin: 10px 0 0 0;
+  #sidebar:hover {
+    left: 0;
   }
 
-  #sidebar h4 {
-    color: #65cea7;
-    margin-top: 20px;
+#sidebar .list-group {
+  width: 100%;
+  padding: 0;  
+}
+
+#sidebar h4, #sidebar h3, #sidebar .list-group-item, #sidebar .sidebar-avatar {
+  padding: 10px 15px;
+}
+
+#sidebar h4, #sidebar h3 {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#sidebar h4 {
+  color: #65cea7;
+}
+
+#sidebar .list-group-item {
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  transition: background 0.3s, color 0.3s;
+}
+  #sidebar a.list-group-item:hover {
+    background: rgba(0, 0, 0, 0.2);
   }
 
 .block {
-  height: 120px;
-  margin-right: 30px;
-  padding: 5px 5px 0 15px;
+  max-width: 100px;
   overflow-y: auto;
 }
 
@@ -72,10 +95,6 @@ a.list-group-item {
     padding-top: 5px;
   }
 
-.sidebar-avatar {
-  margin-top: 25px;
-  padding: 20px 0 0 15px;
-}
 .sidebar-avatar img {
   float: left;
   width: 30px;

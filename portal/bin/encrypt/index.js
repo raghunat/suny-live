@@ -9,8 +9,8 @@ exports.encrypt = function (value){
 	return bcrypt.hashSync(value, bcrypt.genSaltSync(8), null);
 };
 
-exports.compare = function (password){
-	return bcrypt.compareSync(password, this.local.password);
+exports.compare = function (password, val){
+	return bcrypt.compareSync(password, val);
 }
 
 

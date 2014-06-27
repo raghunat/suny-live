@@ -54,7 +54,7 @@ module.exports = function (passport) {
                     if (!user)
                         return done(null, false, req.flash('loginMessage', 'No user found.'));
 
-                    if (!encrypt.compare(password))
+                    if (!encrypt.compare(password, user.password))
                         return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.'));
 
                     // all is well, return user

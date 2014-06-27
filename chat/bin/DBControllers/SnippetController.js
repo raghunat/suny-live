@@ -18,13 +18,13 @@ exports.saveSnippet = function(snippetName, text, className, presenter, chatRoom
 	});
 }
 
-exports.findOneSnippetByName = function(snippetName, callback){
-	Snippet.findOne({snippetName : snippetName}, function(err, result){
+exports.findBySnippetId = function(id, callback){
+	Snippet.findOne({_id : id}, function(err, result){
 		if(err){
 			throw err;
 		}
 		
-		Snippet.update({snippetName: result.snippetName}, {$inc : {timeaccessed : 1}}, function(err, result){
+		Snippet.update({snippetName: result.snippetName}, {$inc : {timeaccessed : 1}}, function(err, result2){
 			if(err){
 				throw err;
 			}

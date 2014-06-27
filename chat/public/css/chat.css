@@ -200,3 +200,7 @@ button.win-btn {
 	bottom: 0;
 	width: 100%;
 }
+#content {
+    -webkit-background-size: contain;
+    background-repeat: no-repeat;
+}
